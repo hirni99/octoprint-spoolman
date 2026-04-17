@@ -33,7 +33,7 @@ An OctoPrint plugin integrating with [Spoolman](https://github.com/Donkie/Spoolm
 Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
 or manually using this URL:
 
-    https://github.com/mdziekon/octoprint-spoolman/archive/master.zip
+    https://github.com/hirni99/octoprint-spoolman/archive/master.zip
 
 After installing the plugin, you have to set it up, by:
 - Providing your Spoolman's instance address.

@@ -6,7 +6,7 @@ body:
       value: >-
         **Thank you for wanting to report a bug in octoprint-spoolman!**
 
-          * First, be sure you are running the [latest version of the octoprint-spoolman plugin](https://github.com/mdziekon/octoprint-spoolman/releases).
+          * First, be sure you are running the [latest version of the octoprint-spoolman plugin](https://github.com/hirni99/octoprint-spoolman/releases).
           * You will also need to [enable debugging on the plugin](https://docs.octoprint.org/en/master/configuration/logging_yaml.html).
             * This may be done through the *Settings* > *OctoPrint* > *Logging* > *Logging Levels* section.
             * Select the "octoprint.plugins.Spoolman" name, and make sure Level is "DEBUG".

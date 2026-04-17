@@ -8,6 +8,9 @@ dist
 .DS_Store
 *.zip
 
+# Editor / IDE config
+.vscode/
+
 # Docker volumes used during development
 docker-data/
 

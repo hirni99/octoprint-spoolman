@@ -189,12 +189,12 @@ class SpoolmanPlugin(
 
                 # version check: github repository
                 "type": "github_release",
-                "user": "mdziekon",
+                "user": "hirni99",
                 "repo": "octoprint-spoolman",
                 "current": self._plugin_version,
 
                 # update method: pip
-                "pip": "https://github.com/mdziekon/octoprint-spoolman/archive/{target_version}.zip",
+                "pip": "https://github.com/hirni99/octoprint-spoolman/archive/{target_version}.zip",
 
                 "stable_branch": {
                     "name": "Stable",

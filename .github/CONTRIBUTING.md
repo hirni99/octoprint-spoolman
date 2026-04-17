@@ -6,11 +6,11 @@ Thanks for your interest in contributing to Octoprint-Spoolman! Please take a mo
 
 **Please ask first before starting work on any significant new features.**
 
-It's never a fun experience to have your pull request declined after investing a lot of time and effort into a new feature. To avoid this from happening, we request that contributors create [a feature request](https://github.com/mdziekon/octoprint-spoolman/discussions/new?category=ideas) to first discuss any new ideas. Your ideas and suggestions are welcome!
+It's never a fun experience to have your pull request declined after investing a lot of time and effort into a new feature. To avoid this from happening, we request that contributors create [a feature request](https://github.com/hirni99/octoprint-spoolman/discussions/new?category=ideas) to first discuss any new ideas. Your ideas and suggestions are welcome!
 
 ## Where do I go from here?
 
-For any questions, support, or ideas, etc. [please create a GitHub discussion](https://github.com/mdziekon/octoprint-spoolman/discussions/new). If you've noticed a bug, [please submit an issue][new issue].
+For any questions, support, or ideas, etc. [please create a GitHub discussion](https://github.com/hirni99/octoprint-spoolman/discussions/new). If you've noticed a bug, [please submit an issue][new issue].
 
 ### Fork and create a branch
 
@@ -40,7 +40,7 @@ A PR can only be merged into master by a maintainer if: approved by another main
 Maintainers need to do the following to push out a release:
 
 * Make sure the changes which are about to be released have been tested.
-* [Create a GitHub Release](https://github.com/mdziekon/octoprint-spoolman/releases/new) by selecting (or creating) the tag and generating the release notes.
+* [Create a GitHub Release](https://github.com/hirni99/octoprint-spoolman/releases/new) by selecting (or creating) the tag and generating the release notes.
     * The new version number should follow the [Semantic Versioning specification](https://semver.org/).
 
-[new issue]: https://github.com/mdziekon/octoprint-spoolman/issues/new
+[new issue]: https://github.com/hirni99/octoprint-spoolman/issues/new
