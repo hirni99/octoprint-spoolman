@@ -229,6 +229,32 @@
                 <div class="control-group">
                     <label
                         class="control-label"
+                        for="settings-spoolman-general-isTemperatureOverrideEnabled"
+                    >
+                        Override temperatures from Spoolman
+                    </label>
+                    <div class="controls">
+                        <div>
+                            <input
+                                id="settings-spoolman-general-isTemperatureOverrideEnabled"
+                                type="checkbox"
+                                class="text-left"
+                                data-bind="checked: pluginSettings.isTemperatureOverrideEnabled"
+                            >
+                        </div>
+                        <div style="margin-top: 0.25em">
+                            <small>
+                                When enabled, the plugin will override the extruder and bed temperatures defined in the GCode file with the temperatures configured in Spoolman for the selected spool's filament type (<code>settings_extruder_temp</code> and <code>settings_bed_temp</code>). If a spool or filament has no temperature configured in Spoolman, the original GCode temperatures will be used.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr/>
+                </div>
+                <div class="control-group">
+                    <label
+                        class="control-label"
                         for="settings-spoolman-general-isUseRequestRetryLogicEnabled"
                     >
                         Retry spool usage update on error

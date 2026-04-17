@@ -87,6 +87,12 @@ class SpoolmanPlugin(
 
         pass
 
+    def on_queuingGCodeHook(self, comm_instance, phase, cmd, cmd_type, gcode, subcode=None, tags=None, *args, **kwargs):
+        if not self._isInitialized:
+            return
+
+        return self.handleQueuingGCode(cmd, gcode)
+
     # --- Mixins ---
 
     # AssetPlugin
@@ -143,6 +149,7 @@ class SpoolmanPlugin(
             SettingsKeys.SPOOLMAN_API_KEY_HEADER: "",
             SettingsKeys.SPOOLMAN_API_KEY: "",
             SettingsKeys.IS_USE_REQUEST_RETRY_LOGIC_ENABLED: True,
+            SettingsKeys.IS_TEMPERATURE_OVERRIDE_ENABLED: True,
         }
 
         return settings
